@@ -693,7 +693,7 @@ line-height: 20px;
     font-size: 12px;
 }
 }
-@media screen and (max-width : 950px){
+@media screen and (max-width : 750px){
     body{
         flex-direction: column;
         height: auto;
@@ -719,6 +719,9 @@ line-height: 20px;
         overflow-y: none;
         width: calc(99% - 1rem);
         padding: 1rem;
+    }
+    .recent-orders table{
+        font-size: 8px;
     }
 }
 @media screen and (max-width : 650px){
