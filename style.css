@@ -140,11 +140,12 @@ aside .sideBar__container a.active::before{
     height: 100%;
     width: 5px;
     background-color: var(--color-10);
+    background-color: #eee4e0;
     top: 0;
     left: 0;
 }
 .sideBar__container a:hover svg{
-    margin-left: 0;
+    margin-left: 4%;
 }
 aside .message-count{
     background-color: var(--color-10);
@@ -161,7 +162,7 @@ main{
     justify-content: flex-start;
     padding: 1rem;
     gap: 1rem;
-    width: calc(100% - 600px);
+    width: calc(100% - (600px));
     background-color: transparent;
 }
 main h1{
@@ -199,6 +200,7 @@ main h1{
     justify-content: center;
     grid-template-columns: repeat(3 ,1fr);
     gap: 1rem;
+    
 }
 .main__data-container{
     display: flex;
@@ -336,6 +338,8 @@ main h1{
     text-align: center;
     box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
     transition: all 300ms ease;
+
+   
 }
 .recent-orders table:hover{
     box-shadow: none;
@@ -372,7 +376,7 @@ main h1{
 }
 
 .right_side{
-    width: calc( 600px - 220px);
+    width: calc( 600px - 220px );
     padding: 1rem;
     overflow-y: auto;
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.753);
@@ -381,6 +385,7 @@ main h1{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    
     align-items: center;
 }
 .menu-button{
@@ -448,6 +453,7 @@ main h1{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
+    
     margin-top: 10px;
 }
 .right_side-recent__updates h2,
@@ -510,6 +516,7 @@ main h1{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -691,6 +698,7 @@ line-height: 20px;
         flex-direction: column;
         height: auto;
         overflow-y: auto;
+        width: auto;
     }
     
     .right_side{
@@ -717,4 +725,5 @@ line-height: 20px;
     .sideBar{
         width: 100%;
     }
+    
 }
